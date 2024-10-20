@@ -1,0 +1,10 @@
+@import "./normalize.css";
+
+.tyc__main{
+    padding: 0 20px;
+}
+
+.tyc__container{
+    max-width: 700px;
+    margin: 0 auto;
+}

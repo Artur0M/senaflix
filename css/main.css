@@ -1,0 +1,22 @@
+@import "./normalize.css";
+@import "./header.css";
+@import "./peliculas.css";
+@import "./footer.css";
+@import "./formulario.css";
+
+body{
+    background-color: var(--primary);
+    display: grid;
+    color: #fff;
+    min-height: 100vh;
+    grid-template-rows: 80px 1fr 40px;
+}
+
+@media (min-width: 1040px) {
+    body{
+        max-width: 1040px;
+        margin: 0 auto;
+    }
+}
+
+

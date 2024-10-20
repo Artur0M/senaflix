@@ -1,0 +1,56 @@
+.peliculas__container{
+    padding: 20px;
+}
+
+.lista__peliculas{
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fill,
+        minmax(150px, 1fr)
+        );
+    gap: 30px 20px;
+}
+
+.card a{
+    color: var(--color_white);
+    text-decoration: none;
+}
+
+.portada{
+    width: 100%;
+    aspect-ratio: 14/20;
+    object-fit: cover;
+    display: block;
+}
+
+.img__container{
+    position: relative;
+    /* background-color: aqua; */
+}
+
+
+.año__container{
+    position: absolute;
+    padding: 3px 5px;
+    background-color: var(--color);
+    top: 4px;
+    right: 4px;
+    border-radius: 2px;
+    display: flex;
+    box-shadow: inset 0 0 3px rgba( 0, 0, 0, .7);    
+}
+
+.año__container span{
+    text-shadow: 0 0 2px rgba( 0, 0, 0, .6);
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.titulo__container h5{
+    margin-top: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

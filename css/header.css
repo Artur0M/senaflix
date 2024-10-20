@@ -1,0 +1,78 @@
+/* Inicio */
+header{
+    display: flex;
+    align-items: center;
+    padding-inline: 20px;
+}
+
+.header__peliculas{
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+/* logo */
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.link__logo{
+    display: flex;
+    text-decoration: none;
+    color: var(--color-text);
+    align-items: center;
+    height: 45px;
+}
+
+.logo div:last-child{
+    background-color: var(--color);
+    display: inline-block;
+    border-radius: 2px;
+    box-shadow: inset 0 0 2px var(--primary);
+    padding: 6px;
+}
+
+.logo h2{
+    margin: 0;
+    text-shadow: 0 0 9px var(--primary);
+}
+
+/* navegacion */
+.lista__nav{
+    display: flex;
+    padding: 0;
+    gap: 20px;
+    list-style: none;
+}
+
+.lista__nav a{
+    text-decoration: none;
+    color: var(--color-text);
+    padding-bottom: 7px;
+}
+
+.lista__nav a:hover{
+    color: var(--color);
+}
+
+.lista__nav a:active{
+    color: var(--color);
+}
+
+#target-page {
+    color: var(--color);
+    border-bottom: 3px solid var(--color);
+}
+
+@media (max-width: 500px){
+    .lista__nav{
+        gap: 10px;
+    }
+}
+
+@media (min-width: 1040px){
+    .header__inicio{
+        width: 1000px;
+        margin: 0 auto;
+    }
+}

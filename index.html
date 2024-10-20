@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/inicio.css">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <title>SenaFlix</title>
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <div class="inicio">
+        <header class="header__inicio">
+            <section class="logo">
+                <div>
+                    <h2>SENA</h2>
+                </div>
+                <div>
+                    <h2>FLIX</h2>
+                </div>
+            </section>
+        </header>
+        <main class="main__inicio">
+            <section class="form_container">
+                <h1>Inicia sesión</h1>
+                <form action="./pages/peliculas.html" class="formulario">
+                    <section class="input__container">
+                        <label for="correo">Correo</label>
+                    <input 
+                        type="email" 
+                        name="correo" 
+                        id="correo" 
+                        placeholder="ejemplo@gmail.com" 
+                        required
+                    >
+                    </section>
+                    <section class="input__container">
+                        <label for="contraseña">Contraseña</label>
+                    <input 
+                        type="password" 
+                        name="correo" 
+                        id="contraseña" 
+                        placeholder="contraseña" 
+                        required
+                    >
+                    </section>
+                    <section class="checkbox__container">
+                        <label for="terminos">
+                            <input type="checkbox" name="terminos" id="terminos" required>
+                            Acepta los <a href="./pages/tyc.html">términos y condiciones</a>
+                        </label>
+                    </section>
+                    <section class="submit_container">
+                        <input type="submit" value="Iniciar sesión">
+                    </section>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Desarrollado por Luis Arturo Ospino</p>
+        </footer>
+    </div>
+</body>
+
+</html>
